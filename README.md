@@ -1,6 +1,6 @@
 <h1 align="center"> gbTools </h1>
 
-<p align="center"> ????,??,????.</p>
+<p align="center"> 国标工具用于验证或生成等</p>
 
 
 ## Installing
