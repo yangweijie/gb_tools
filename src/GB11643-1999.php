@@ -1,6 +1,7 @@
 <?php
 namespace yangweijie\GbTools;
 
+// https://github.com/bluesky335/IDCheck
 class GB11643_1999{
 	// 英文
 	public $name = 'Citizen identification number';
