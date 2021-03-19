@@ -1,0 +1,19 @@
+{
+    "name": "yangweijie/gb_tools",
+    "description": "国标工具用于验证或生成等",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangweijie",
+            "email": "917647288@qq.com"
+        }
+    ],
+    "require": {
+        "verbalexpressions/php-verbal-expressions": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yangweijie\\GbTools\\": "src/"
+        }
+    }
+}
