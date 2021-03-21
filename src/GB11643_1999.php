@@ -3,6 +3,8 @@ namespace Yangweijie\GbTools;
 
 // https://github.com/bluesky335/IDCheck
 // https://github.com/jxlwqq/id-validator
+
+// 参考 http://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=080D6FBF2BB468F9007657F26D60013E
 class GB11643_1999{
 	// 英文
 	public $name = 'Citizen identification number';

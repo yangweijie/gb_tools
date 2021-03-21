@@ -11,7 +11,35 @@ $ composer require yangweijie/gbTools -vvv
 
 ## Usage
 
-TODO
+### 身份证
+
+~~~
+
+$a = new Yangweijie\GbTools\Gb('11643-1999');
+
+$b = $a->isValid('440308199901101512'); //是否有效
+var_dump($b);
+
+var_dump($a->getInfo('440308199901101512')); // 获取信息
+
+$c = $a->upgradeId('610104620927690');  // 15位升级
+var_dump($c);
+
+
+$d = $a->fakeId(); //伪造
+var_dump($d);
+~~~
+
+
+### 法人和其他组织统一社会信用代码
+
+~~~
+
+$a = new Yangweijie\GbTools\Gb('32100-2015');
+
+$b = $a->isValid('91120222MA06DG3067');
+var_dump($b);
+~~~
 
 ## Contributing
 
@@ -27,6 +55,8 @@ _The code contribution process is not very formal. You just need to make sure th
 ## 算法
 
 https://github.com/bluesky335/IDCheck
+
+https://github.com/jxlwqq/id-validator
 
 ## License
 
