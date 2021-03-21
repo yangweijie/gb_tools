@@ -1,5 +1,5 @@
 <?php
-namespace yangweijie\GbTools;
+namespace Yangweijie\GbTools;
 
 class Gb{
 
@@ -8,9 +8,15 @@ class Gb{
 
 	public function __construct($code){
 		$code      = str_replace('-', '_', $code);
-		$className = "GB{$code}";
+		$className = "Yangweijie\GbTools\GB{$code}";
 		$this->app = new $className;
 	}
+
+	function __call($name,$arguments) { 
+		if(method_exists($this->app, $name)){
+			return call_user_func_array([$this->app, $name], $arguments);
+		}
+  	} 
 
 
 	public function __toString(){

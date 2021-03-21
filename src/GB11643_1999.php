@@ -1,7 +1,8 @@
 <?php
-namespace yangweijie\GbTools;
+namespace Yangweijie\GbTools;
 
 // https://github.com/bluesky335/IDCheck
+// https://github.com/jxlwqq/id-validator
 class GB11643_1999{
 	// 英文
 	public $name = 'Citizen identification number';
@@ -500,7 +501,7 @@ class GB11643_1999{
      */
     private function _checkBirthdayCode($birthdayCode)
     {
-        $date = DateTime::createFromFormat($format = 'Ymd', $birthdayCode);
+        $date = \DateTime::createFromFormat($format = 'Ymd', $birthdayCode);
 
         return $date->format($format) === $birthdayCode && (int) $date->format('Y') >= 1800;
     }
