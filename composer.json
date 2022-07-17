@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "verbalexpressions/php-verbal-expressions": "dev-master"
+        "verbalexpressions/php-verbal-expressions": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
