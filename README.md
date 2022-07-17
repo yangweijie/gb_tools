@@ -6,7 +6,7 @@
 ## Installing
 
 ```shell
-$ composer require yangweijie/gbTools -vvv
+$ composer require yangweijie/gb_tools -vvv
 ```
 
 ## Usage
