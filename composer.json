@@ -2,6 +2,7 @@
     "name": "yangweijie/gb_tools",
     "description": "国标工具用于验证或生成等",
     "license": "MIT",
+    "version":"1.0",
     "authors": [
         {
             "name": "yangweijie",
